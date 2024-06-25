@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "WarblerText";
+    src: url("fonts/WarblerText-Regular-Edu.woff2");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "WarblerText";
+    src: url("fonts/WarblerText-Bold-Edu.woff2");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "WarblerText";
+    src: url("fonts/WarblerText-Italic-Edu.woff2");
+    font-style: italic;
+}
+@font-face {
+    font-family: "WarblerText";
+    src: url("fonts/WarblerText-BoldItalic-Edu.woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "WarblerDisplay";
+    src: url("fonts/WarblerDisplay-Regular-Edu.woff2");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "WarblerDisplay";
+    src: url("fonts/WarblerDisplay-Bold-Edu.woff2");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "WarblerDisplay";
+    src: url("fonts/WarblerDisplay-Italic-Edu.woff2");
+    font-style: italic;
+}
+@font-face {
+    font-family: "WarblerDisplay";
+    src: url("fonts/WarblerDisplay-BoldItalic-Edu.woff2");
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: "WarblerDisplay", sans-serif;
+    /* margin: 0; */
+}
+
+h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 3em;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+html, body {
+    font-family: "WarblerText", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+
+}
+
+
+.caption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+}
+
+.container {
+    padding: 25px;
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > * {
+    flex-grow: 1;
+}
+
+main {
+    max-width: 500px;
+}
+
+.images {
+    width: 500px;
+}
+
+.school {
+    font-weight: 400;
+    color: purple
+}
+
+.gradient {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, antiquewhite 100%);
+}
+
+blockquote {
+    color: green;
+    /* font-size: 2em; */
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-family: "WarblerDisplay", sans-serif;
+}
